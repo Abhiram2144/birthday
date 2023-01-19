@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./app.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Abhi's Gifts</title>
+
+  </head>
+
+
+
+  <body>
+
+    <div class="container">
+        <div class="heading">
+            <h1 class="head">Great To See You Here</h1>
+            <h3 class="head">Please Enter The Details: </h3>
+            <p class="txt pt">Your Name: </p> 
+            <input type="text" class="in" id="tName" value="">
+            <p class="txt pt">Whos My Favourite FootBall Player? </p> 
+            <button class="hint txt" onclick="hintfn()">hint</button> 
+            <p class="hintans txt pt"></p> 
+            
+            <input type="text" class="in" id="tDesig" value=""> <br>
+            <button type="button" onclick="submitfn()" class=" submit txt">Submit</button>
+            <h1 class="at text"></h1>
+        </div>
+        
+        <br><br>
+    
+
+
+        <div class="content">
+            <i class="fa-solid fa-heart"></i>
+                <h2 class="question head">Still Have Any Love Left? </h2>
+                <div class="btn-group">
+                    <button class="yes-btn txt">Ofc Yes 😄</button>
+                    <button class="no-btn txt">Ofc No 😂</button>
+                </div>
+                <div class="ans">
+                    <h1 class="anstxt txt"></h1>
+                </div>
+
+        </div>
+
+        
+
+    </div>
+      <!-- js link  -->
+    <script src="app.js"></script>
+    
+  </body>
+
+  <!-- icons  -->
+  <script src="https://kit.fontawesome.com/e77c4cf760.js" crossorigin="anonymous"></script>
+
+
+</html>

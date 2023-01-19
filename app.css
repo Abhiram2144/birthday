@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url('./images/background-stars.jpg') no-repeat center center/cover;
+    
+}
+
+/* General Texts Fonts */
+.head{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+}
+.txt
+{
+    font-family: 'Kalam', cursive;
+    margin-top: 5px;
+
+
+}
+
+/* heading  */
+
+.hint
+{
+    width: 75px;
+    margin-top: 85px;
+    height: fit-content;
+    cursor: pointer;
+    border-color: #58287F;
+    color: #58287F;
+    background-color: #fff;
+
+}
+
+.submit
+{
+    width: 75px;
+    margin-top: 95px;
+    height: fit-content;
+    cursor: pointer;
+    background-color: #58287F;
+    color: #fff;
+}
+
+.hint:hover{
+    background-color: #58287F;
+    color: #fff;
+    border-color: black;
+}
+
+.submit:hover
+{
+    color: #58287F;
+    background-color: #fff;
+    border-color: #58287F;
+
+}
+.pt
+{
+    font-size: 1.5em;
+}
+
+.heading
+{
+    margin-left: 30%;
+    margin-top: 50px;
+    height: 370px;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 600px;
+    color: #fff
+}
+
+.in
+{
+    background-color: #fff;
+    color: #58287F;
+    font-weight: 400;
+    height: 30px;
+}
+
+
+/* box  */
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 47vh;
+    
+    position: relative;
+    width: 700px;
+    height: 330px;
+    flex-direction: column;
+    margin-left: 500px;
+    color: #fff;
+}
+
+i{
+    font-size: 2.5em;
+    /* color */
+    /* border : 5px solid transparent; */
+    /* outline: 3px solid black; */
+    border-radius: 50%;
+    color: #58287F;
+}
+
+h2
+{
+    font-size: 3em;
+    margin: 15px 0;
+}
+
+.btn-group
+{
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    font-weight: 600px;
+    border-radius: 30px;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgbs(0,0,0,.3);
+}
+
+button:nth-child(1)
+{
+    margin-left: -200px;
+    background-color: #58287F;
+    color: #fff;
+}
+button:nth-child(2)
+{
+    margin-right: -200px;
+    color: #58287F;
+    background-color: #fff;
+}
+
+.ans
+{
+    margin-top: 100px;
+}
